@@ -1,0 +1,23 @@
+<header>
+    {% if index %}
+      <h1 class="entry-title">
+        <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title|striptags }}</a>
+      </h1>
+    {% else %}
+      <h1 class="entry-title">{{ article.title|striptags }}</h1>
+    {% endif %}
+      <p class="meta">{% include '_includes/article_time.html' %}</p>
+</header>
+{% if not index %}
+<a href="https://twitter.com/share" class="twitter-share-button" data-via="relopezbriega" data-size="large" data-hashtags="python">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script><script src="https://platform.linkedin.com/in.js" type="text/javascript"></script><script type="IN/Share" data-url="{{ SITEURL }}/{{ article.url }}" data-counter="right"></script>
+<div class="fb-like" data-href="{{ SITEURL }}/{{ article.url }}" data-layout="standard" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>
+{% endif %}
+{% if index %}
+  <div class="entry-content">{{ article.summary }}</div>
+  <footer>
+    <a rel="full-article" href="{{ SITEURL }}/{{ article.url }}">Read On &crarr;</a>
+  </footer>
+{% else %}
+  <div class="entry-content">{{ article.content }}</div>
+{% endif %}
