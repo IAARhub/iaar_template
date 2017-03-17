@@ -21,7 +21,7 @@ DEFAULT_LANG = u'es'
 #AUTHOR_FEED_ATOM = None
 #AUTHOR_FEED_RSS = None
 
-STATIC_PATHS = ['favicon.ico']
+STATIC_PATHS = ['favicon.ico', 'downloads', 'pages']
 
 # Set the article URL
 ARTICLE_URL = 'capacitacion/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
@@ -29,7 +29,8 @@ ARTICLE_SAVE_AS = 'capacitacion/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 MENUITEMS = [('IAAR', 'http://iaar.site/'),
              ('Home', '/index.html'),             
-             ('Archives', '/archives.html')]
+             ('Archives', '/archives.html'), 
+             ('About', '/pages/comunidad-iaar.html'),]
 
 # Blogroll
 LINKS = (('Relopezbriega', 'http://relopezbriega.github.io/'),
