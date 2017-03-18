@@ -30,7 +30,8 @@ ARTICLE_SAVE_AS = 'capacitacion/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 MENUITEMS = [('IAAR', 'http://iaar.site/'),
              ('Home', '/index.html'),             
              ('Archives', '/archives.html'), 
-             ('About', '/pages/comunidad-iaar.html'),]
+             ('About', '/pages/comunidad-iaar.html'),
+             ('Contact', '/pages/contacto.html'),]
 
 # Blogroll
 LINKS = (('Relopezbriega', 'http://relopezbriega.github.io/'),
