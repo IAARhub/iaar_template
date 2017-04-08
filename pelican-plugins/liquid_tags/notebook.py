@@ -352,6 +352,8 @@ def notebook(preprocessor, tag, markup):
                         '<div class="highlight-ipynb"><pre class="ipynb">')
     body = body.replace('<div class=" highlight hl-python"><pre>',
                         '<div class="highlight-ipynb"><pre class="ipynb">')
+    body = body.replace('<div class=" highlight hl-r"><pre>',
+                        '<div class="highlight-ipynb"><pre class="ipynb">')
     body = preprocessor.configs.htmlStash.store(body, safe=True)
     return body
 
