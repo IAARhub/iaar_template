@@ -1,5 +1,5 @@
 Title: Introducción a R para Ciencia de Datos
-Date: 2017-03-22
+Date: 2017-04-08
 Category: Data Science
 Tags: R, programacion, analisis de datos, Machine Learning, Redes Neuronales, ggplot2
 Author: Raul E. Lopez Briega
