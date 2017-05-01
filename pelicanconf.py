@@ -28,7 +28,8 @@ ARTICLE_URL = 'capacitacion/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'capacitacion/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 MENUITEMS = [('IAAR', 'http://iaar.site/'),
-             ('Home', '/index.html'),             
+             ('Home', '/index.html'), 
+             ('Blog', '/blog_index.html'),            
              ('Archives', '/archives.html'), 
              ('About', '/pages/comunidad-iaar.html'),
              ('Contact', '/pages/contacto.html'),]
@@ -86,3 +87,5 @@ FEED_ATOM = 'atom.xml'
 
 # Search
 SEARCH_BOX = True
+
+INDEX_SAVE_AS = 'blog_index.html'

@@ -8,7 +8,6 @@ Description: Recursos y herramientas para crear nuestros propios chatbots.
 
 ¿Quieres construir un chatbot pero no sabes por dónde empezar? Desde el diseño hasta el análisis, tenemos todo lo que necesitas saber. Sigue leyendo para encontrar toda clase de recursos útiles. ¡Para utilizar la mayoría de ellos no es necesario saber programar!
 
-
 ![chatbots](https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAfVAAAAJGFmMjQ5NGJmLTZiYjAtNDIzNy1hZThjLTUyNzQwMmIxOTU3OQ.jpg)
 
 ## Diseño de Bots
@@ -37,17 +36,17 @@ Description: Recursos y herramientas para crear nuestros propios chatbots.
 
 ## Construcción de Bots 
 
-9. [Chatfuel](http://chatfuel.com/): Serivico web para la construcción de bots para FB messenger y Telegram, no require saber programar. Precio: gratis (hasta las 100,000 conversaciones); no publicado para el resto (se debe contactarlos para averiguarlo)
+9. [Chatfuel](http://chatfuel.com/): Servicio web para la construcción de bots para FB messenger y Telegram, no requiere saber programar. Precio: gratis (hasta las 100,000 conversaciones); no publicado para el resto (se debe contactarlos para averiguarlo)
 
-10. [API.AI](http://api.ai/): Serivico web para la construcción de bots para FB messenger, Telegram y twillio, no require saber programar. Precio: gratis (en principio sin límite)
+10. [API.AI](http://api.ai/): Servicio web para la construcción de bots para FB messenger, Telegram y twillio, no requiere saber programar. Precio: gratis (en principio sin límite)
 
-11. [Motion.AI](http://www.motion.ai/): Serivico web para la construcción de bots para FB messenger, web-base, slack, SMS, email, y smootch. Precio: gratis (1,000 llamadas, 2 bots), $100 USD por mes (50,000 llamadas, 50 bots)
+11. [Motion.AI](http://www.motion.ai/): Servicio web para la construcción de bots para FB messenger, web-base, slack, SMS, email, y smootch. Precio: gratis (1,000 llamadas, 2 bots), $100 USD por mes (50,000 llamadas, 50 bots)
 
-12. [Wit.AI](http://wit.ai/): Serivico web para la construcción de bots para FB messenger. Precio: gratis (1 request por segundo)
+12. [Wit.AI](http://wit.ai/): Servicio web para la construcción de bots para FB messenger. Precio: gratis (1 request por segundo)
 
 13. [Amazon Lex](http://aws.amazon.com/es/amazon-ai/): API Cognitiva para conversaciones. Precio: gratismium (pero hay que registrarse con tarjeta de crédito)
 
-14. [PandoraBots](http://www.pandorabots.com/): web API para construcción de bots. Funciona con skype, Twillio, Twitter, Unity, Whatsapp, Hubot. Precio: desde 9 USD por mes, 10,000 interaccions y 10 bots; hasta  999 USD por mes, 1 millon de interacciones y 100 bots.
+14. [PandoraBots](http://www.pandorabots.com/): web API para construcción de bots. Funciona con skype, Twillio, Twitter, Unity, Whatsapp, Hubot. Precio: desde 9 USD por mes, 10,000 interacciones y 10 bots; hasta  999 USD por mes, 1 millon de interacciones y 100 bots.
 
 15. [Microsoft Bot Framework](http://dev.botframework.com/): Frameworkd de Mircrosots para construir Bots para FB Messenger y Skype.
 
