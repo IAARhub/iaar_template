@@ -28,8 +28,8 @@ ARTICLE_URL = 'capacitacion/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'capacitacion/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 MENUITEMS = [('IAAR', 'http://iaar.site/'),
-             ('Home', '/index.html'), 
-             ('Blog', '/blog_index.html'),            
+             ('IAAR Book', 'https://iaarbook.github.io/'),  
+             ('Home', '/index.html'),           
              ('Archives', '/archives.html'), 
              ('About', '/pages/comunidad-iaar.html'),
              ('Contact', '/pages/contacto.html'),]
@@ -38,6 +38,7 @@ MENUITEMS = [('IAAR', 'http://iaar.site/'),
 LINKS = (('Relopezbriega', 'http://relopezbriega.github.io/'),
          ('Python.org', 'http://python.org/'),
          ('IAAR', 'http://iaar.site/'),
+         ('IAAR Book', 'https://iaarbook.github.io/'), 
          ('IAAR Facebook', 'https://www.facebook.com/groups/InteligenciaArtificialArgentina/'),
          ('IAAR Meetup', 'https://www.meetup.com/es-ES/InteligenciaArtificialArgentina/'),)
 
@@ -88,4 +89,4 @@ FEED_ATOM = 'atom.xml'
 # Search
 SEARCH_BOX = True
 
-INDEX_SAVE_AS = 'blog_index.html'
+#INDEX_SAVE_AS = 'blog_index.html'
